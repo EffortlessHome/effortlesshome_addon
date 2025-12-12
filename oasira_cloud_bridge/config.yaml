@@ -1,0 +1,34 @@
+name: "EffortlessHome Cloud Bridge"
+version: "1.1.39"
+slug: "effortlesshome_bridge"
+description: "Connects Home Assistant to the EffortlessHome Cloud WebSocket service and registers connection info"
+startup: services
+boot: auto
+init: false
+host_network: true
+privileged:
+  - NET_ADMIN
+  - SYS_ADMIN
+hassio_api: true
+homeassistant_api: true
+ingress: true
+ingress_port: 8080
+panel_icon: mdi:view-dashboard
+panel_title: EffortlessHome Dashboard
+arch:
+  - amd64
+  - aarch64
+options:
+  email: ""
+  password: ""
+  system_id: ""
+  matter_label: "favorite"
+  dashboard_port: 8080
+schema:
+  email: str
+  password: password
+  system_id: str?
+  matter_label: str?
+  dashboard_port: int
+environment:
+  TUNNEL_ORIGIN_CERT: /cert.pem
