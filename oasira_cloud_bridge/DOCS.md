@@ -4,8 +4,8 @@
 
 ### Required Settings
 
-- **email**: Your Oasira account email address
-- **password**: Your Oasira account password
+- **email**: Your EffortlessHome account email address
+- **password**: Your EffortlessHome account password
 
 ### Optional Settings
 
@@ -22,20 +22,20 @@ Automatically establishes a secure Cloudflare tunnel for remote access to your H
 Adds Matter device export support to Home Assistant.
 
 ### Web Dashboard
-Provides a web interface for monitoring and managing your Oasira services.
+Provides a web interface for monitoring and managing your EffortlessHome services.
 
 ## Troubleshooting
 
 ### Add-on won't start
 1. Check that your email and password are correct
-2. Verify you have an active Oasira account
+2. Verify you have an active EffortlessHome account
 3. Check the add-on logs for specific error messages
 
 ### Services not connecting
 - Ensure your internet connection is stable
-- Verify your Oasira account has active services
+- Verify your EffortlessHome account has active services
 - Check that the required ports are not blocked by your firewall
 
 ## Support
 
-For additional help, contact Oasira support at https://www.effortlesshome.co
+For additional help, contact EffortlessHome support at https://www.effortlesshome.co

@@ -1,6 +1,6 @@
-# Oasira Cloud Bridge Add-on
+# EffortlessHome Cloud Bridge Add-on
 
-Connect your Home Assistant instance to Oasira Cloud services with integrated Matter Hub support.
+Connect your Home Assistant instance to EffortlessHome Cloud services with integrated Matter Hub support.
 
 ## About
 
@@ -12,7 +12,7 @@ This add-on provides:
 ## Features
 
 ### Main Dashboard
-- Monitor Oasira Cloud connection status
+- Monitor EffortlessHome Cloud connection status
 - View system information
 - Manage tunnel configuration
 - Accessible at: `http://[addon-ip]:8080/`
@@ -37,8 +37,8 @@ dashboard_port: 8080
 
 ### Configuration Options
 
-- `email` (required): Your Oasira account email
-- `password` (required): Your Oasira account password
+- `email` (required): Your EffortlessHome account email
+- `password` (required): Your EffortlessHome account password
 - `system_id` (optional): Specific system ID if you have multiple systems
 - `ha_url` (required): Home Assistant URL (default: http://homeassistant.local:8123)
 - `dashboard_port` (optional): Port for web interface (default: 8080)
@@ -46,7 +46,7 @@ dashboard_port: 8080
 ## Installation
 
 1. Add this repository to your Home Assistant add-on store
-2. Install the "Oasira Cloud Bridge" add-on
+2. Install the "EffortlessHome Cloud Bridge" add-on
 3. Configure your credentials
 4. Start the add-on
 5. Access the dashboard at `http://[homeassistant-ip]:8080/`
@@ -66,4 +66,4 @@ See [MATTER_INTEGRATION.md](../MATTER_INTEGRATION.md) for technical documentatio
 
 ## Support
 
-For support, visit [Oasira](https://oasira.com)
+For support, visit [EffortlessHome](https://effortlesshome.co)

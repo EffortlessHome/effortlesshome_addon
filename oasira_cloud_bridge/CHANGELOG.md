@@ -6,4 +6,4 @@
 - Cloudflare Tunnel integration
 - Matter Hub support
 - Web dashboard
-- OAuth authentication with Oasira API
+- OAuth authentication API

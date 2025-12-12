@@ -1,14 +1,14 @@
 # Integration Summary
 
 ## Overview
-Successfully integrated the oasira-matter functionality into the Oasira Cloud Bridge addon. Both the main dashboard and Matter Hub are now accessible on the same web server port (8080) at different paths.
+Successfully integrated the EffortlessHome-matter functionality into the EffortlessHome Cloud Bridge addon. Both the main dashboard and Matter Hub are now accessible on the same web server port (8080) at different paths.
 
 ## Files Modified
 
-### 1. `oasira_cloud_bridge/Dockerfile`
+### 1.
 **Changes:**
 - Added multi-stage build with Node.js 22 Alpine builder stage
-- Builder stage installs pnpm and builds oasira-matter packages
+- Builder stage installs pnpm and builds EffortlessHome-matter packages
 - Runtime stage now includes Node.js alongside Python
 - Copies built Matter backend and frontend from builder stage
 - Sets up proper node_modules structure for runtime dependencies
@@ -24,7 +24,7 @@ FROM ghcr.io/home-assistant/aarch64-base:latest
 # Copies: matter-backend, matter-frontend, node_modules
 ```
 
-### 2. `oasira_cloud_bridge/run.py`
+### 2.
 **Changes:**
 
 #### New Function: `start_matterhub()`
@@ -58,7 +58,7 @@ FROM ghcr.io/home-assistant/aarch64-base:latest
 - Added note about single-port access
 - Referenced MATTER_INTEGRATION.md for details
 
-### 4. `oasira_cloud_bridge/README.md`
+### 4. 
 **Changes:**
 - Expanded features section with detailed descriptions
 - Added separate sections for Main Dashboard and Matter Hub
@@ -67,7 +67,7 @@ FROM ghcr.io/home-assistant/aarch64-base:latest
 - Improved configuration documentation
 - Added link to technical documentation
 
-### 5. `MATTER_INTEGRATION.md` (New)
+### 5. 
 **Purpose:** Comprehensive technical documentation
 
 **Contents:**
