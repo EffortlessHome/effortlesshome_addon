@@ -1,6 +1,6 @@
 {
   "name": "EffortlessHome Cloud Bridge",
-  "version": "1.2.1",
+  "version": "1.2.4",
   "slug": "EffortlessHome_cloud_bridge",
   "description": "EffortlessHome Cloud Bridge for Home Assistant.",
   "arch": ["aarch64", "amd64", "armv7", "i386"],
