@@ -185,4 +185,4 @@ Potential improvements documented in MATTER_INTEGRATION.md:
 
 ## Conclusion
 
-The integration is complete and ready for testing. Both services now run seamlessly on the same port with clean URL separation, providing users with a unified experience while maintaining the full functionality of both the Oasira dashboard and Matter Hub.
+The integration is complete and ready for testing. Both services now run seamlessly on the same port with clean URL separation, providing users with a unified experience while maintaining the full functionality of both the effortlesshome dashboard and Matter Hub.
