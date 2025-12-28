@@ -2,9 +2,6 @@
 
 Home Assistant add-ons repository for effortlesshome.
 
-## 🚀 Quick Start
-
-The addon now uses **pre-built Docker images** from Docker Hub for faster installation and updates. No local building required!
 
 ## Installation
 
@@ -18,7 +15,7 @@ Add this repository to your Home Assistant instance:
 
 ## Available Add-ons
 
-### effortlesshome Cloud Bridge
+### EffortlessHome Cloud
 
 Connect your Home Assistant to effortlesshome Cloud services with:
 - **Cloudflare Tunnel** - Secure remote access
@@ -35,18 +32,6 @@ Connect your Home Assistant to effortlesshome Cloud services with:
 
 See [MATTER_INTEGRATION.md](MATTER_INTEGRATION.md) for technical details about the Matter integration.
 
-## 📦 Docker Hub Distribution
-
-This addon uses pre-built images from Docker Hub: `effortlesshome/effortlesshome-cloud-bridge`
-
-**Benefits:**
-- ✅ Faster installation (no local compilation)
-- ✅ Faster updates (pull instead of rebuild)
-- ✅ Consistent builds across all systems
-- ✅ Reduced resource usage on your Home Assistant system
-
-For more details, see [DOCKER_HUB.md](DOCKER_HUB.md)
-
 ## Support
 
-For support and questions, visit [effortlesshome](https://effortlesshome.com)
+For support and questions, visit [effortlesshome](https://effortlesshome.co)

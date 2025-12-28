@@ -1,4 +1,4 @@
-# Matter Bridge API Examples
+# Matter API Examples
 
 ## Create a Vacuum-Only Bridge
 

@@ -1,17 +1,9 @@
 #============================#
 #   EffortlessHome ADDON DOCKERFILE  #
 #============================#
-# This Dockerfile is not used when build.json is present
-# Home Assistant pulls pre-built images from Docker Hub via build.json
-# The actual images are built separately and pushed to effortlesshome/effortlesshomecloudbridge
 
 ARG BUILD_FROM
 FROM ${BUILD_FROM}
-
-# This is a placeholder Dockerfile required by Home Assistant
-# The actual addon uses pre-built images specified in build.json:
-# - effortlesshome/effortlesshomecloudbridge:latest-amd64
-# - effortlesshome/effortlesshomecloudbridge:latest-aarch64
 
 # Labels for Home Assistant
 ARG BUILD_ARCH

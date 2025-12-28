@@ -1,4 +1,4 @@
-# EffortlessHome Cloud Bridge Add-on
+# EffortlessHome Cloud Add-on
 
 Connect your Home Assistant instance to EffortlessHome Cloud services with integrated Matter Hub support.
 
@@ -39,18 +39,16 @@ dashboard_port: 8080
 
 - `email` (required): Your EffortlessHome account email
 - `password` (required): Your EffortlessHome account password
-- `system_id` (optional): Specific system ID if you have multiple systems
 - `ha_url` (required): Home Assistant URL (default: http://homeassistant.local:8123)
 - `dashboard_port` (optional): Port for web interface (default: 8080)
 
 ## Installation
 
 1. Add this repository to your Home Assistant add-on store
-2. Install the "EffortlessHome Cloud Bridge" add-on
+2. Install the "EffortlessHome Cloud" add-on
 3. Configure your credentials
 4. Start the add-on
 5. Access the dashboard at `http://[homeassistant-ip]:8080/`
-6. Access Matter Hub at `http://[homeassistant-ip]:8080/matter/`
 
 ## Data Persistence
 
