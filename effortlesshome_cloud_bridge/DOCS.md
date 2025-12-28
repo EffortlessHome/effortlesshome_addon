@@ -1,4 +1,4 @@
-# EffortlessHome Cloud Bridge Documentation
+# EffortlessHome Cloud Documentation
 
 ## Configuration Options
 

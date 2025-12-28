@@ -21,4 +21,3 @@ LABEL \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="effortlesshome (https://github.com/EffortlessHome)"
-
