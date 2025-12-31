@@ -1,5 +1,5 @@
 name: "EffortlessHome Cloud"
-version: 1.3.6
+version: 1.3.7
 slug: "effortlesshome_bridge"
 description: "EffortlessHome Cloud for Home Assistant with Matter Hub support"
 startup: services
@@ -10,8 +10,7 @@ host_ipc: false
 host_pid: false
 hassio_api: true
 homeassistant_api: true
-ingress: true
-ingress_port: 8080
+webui: "http://[HOST]:[PORT:8080]"
 panel_icon: "mdi:view-dashboard"
 panel_title: "EffortlessHome Dashboard"
 arch:
