@@ -1,4 +1,4 @@
-# effortlesshome Home Assistant Add-ons
+# EffortlessHome Home Assistant Add-ons
 
 Home Assistant add-ons repository for effortlesshome.
 
