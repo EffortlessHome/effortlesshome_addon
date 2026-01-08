@@ -1,5 +1,5 @@
 name: "EffortlessHome Cloud"
-version: 1.4.4
+version: 1.4.5
 slug: "effortlesshome_bridge"
 description: "EffortlessHome Cloud for Home Assistant with Matter Hub support"
 startup: services
@@ -21,7 +21,6 @@ map:
 options:
   email: ""
   password: ""
-  system_id: ""
   matter_label: "favorite"
   dashboard_port: 8080
   send_on_start: true
@@ -30,7 +29,6 @@ options:
 schema:
   email: "str"
   password: "password"
-  system_id: "str?"
   matter_label: "str?"
   dashboard_port: "int"
   send_on_start: "bool"
