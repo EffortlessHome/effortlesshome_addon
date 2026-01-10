@@ -2,11 +2,6 @@
 
 ## Create a Vacuum-Only Bridge
 
-### PowerShell
-```powershell
-# Run the included script
-.\create_vacuum_bridge.ps1
-
 # Or inline command:
 $body = @{
     name = "Vacuum Bridge"
