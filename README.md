@@ -26,7 +26,7 @@ Connect your Home Assistant to effortlesshome Cloud services with:
 
 - **Main Dashboard** (accessible at `/`) - Monitor and manage effortlesshome services
 - **Matter Hub UI** (accessible at `/matter/`) - Configure and manage Matter devices
-- Single port (8080) for both interfaces
+- Single port (18080) for both interfaces
 - Automatic authentication using effortlesshome credentials
 - Persistent storage for Matter devices
 

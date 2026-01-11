@@ -15,15 +15,15 @@ This add-on provides:
 - Monitor EffortlessHome Cloud connection status
 - View system information
 - Manage tunnel configuration
-- Accessible at: `http://[addon-ip]:8080/`
+- Accessible at: `http://[addon-ip]:18080/`
 
 ### Matter Hub
 - Add and manage Matter devices
 - Configure Matter bridges
 - View device status and capabilities
-- Accessible at: `http://[addon-ip]:8080/matter/`
+- Accessible at: `http://[addon-ip]:18080/matter/`
 
-Both interfaces run on the **same port (8080)** for simplified access.
+Both interfaces run on the **same port (18080)** for simplified access.
 
 ## Configuration
 
@@ -32,7 +32,7 @@ email: your-email@example.com
 password: your-password
 system_id: your-system-id (optional if you have only one system)
 ha_url: http://homeassistant.local:8123
-dashboard_port: 8080
+dashboard_port: 18080
 ```
 
 ### Configuration Options
@@ -40,7 +40,7 @@ dashboard_port: 8080
 - `email` (required): Your EffortlessHome account email
 - `password` (required): Your EffortlessHome account password
 - `ha_url` (required): Home Assistant URL (default: http://homeassistant.local:8123)
-- `dashboard_port` (optional): Port for web interface (default: 8080)
+- `dashboard_port` (optional): Port for web interface (default: 18080)
 
 ## Installation
 
@@ -48,7 +48,7 @@ dashboard_port: 8080
 2. Install the "EffortlessHome Cloud" add-on
 3. Configure your credentials
 4. Start the add-on
-5. Access the dashboard at `http://[homeassistant-ip]:8080/`
+5. Access the dashboard at `http://[homeassistant-ip]:18080/`
 
 ## Data Persistence
 

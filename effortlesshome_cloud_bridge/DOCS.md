@@ -11,7 +11,7 @@
 
 - **system_id**: Specific system ID if you have multiple systems (auto-detected if you have only one)
 - **ha_url**: Home Assistant URL (default: `http://homeassistant.local:8123`)
-- **dashboard_port**: Port for the web dashboard (default: `8080`)
+- **dashboard_port**: Port for the web dashboard (default: `18080`)
 
 ## Features
 
