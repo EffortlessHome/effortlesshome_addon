@@ -1,37 +1,19 @@
 # EffortlessHome Home Assistant Add-ons
 
-Home Assistant add-ons repository for effortlesshome.
+Official Home Assistant add-ons repository for EffortlessHome.
 
+## Overview
 
-## Installation
+- **Secure Remote Access** - Connect to your Home Assistant from anywhere using Cloudflare Tunnel
+- **Matter Hub Integration** - Bridge Matter protocol devices into your smart home
+- **Unified Dashboard** - Single interface to manage all EffortlessHome services
+- **Cloud Services** - Seamless integration with EffortlessHome Cloud
 
-Add this repository to your Home Assistant instance:
+## Getting Started
 
-1. Navigate to **Settings** → **Add-ons** → **Add-on Store**
-2. Click the **⋮** (three dots) in the top right
-3. Select **Repositories**
-4. Add this URL: `https://github.com/EffortlessHome/effortlesshome_addon`
-5. Click **Add**
-
-## Available Add-ons
-
-### EffortlessHome Cloud
-
-Connect your Home Assistant to effortlesshome Cloud services with:
-- **Cloudflare Tunnel** - Secure remote access
-- **Matter Hub Integration** - Matter protocol bridge for smart home devices
-- **Unified Web Dashboard** - Single interface for all features
-
-#### Features
-
-- **Main Dashboard** (accessible at `/`) - Monitor and manage effortlesshome services
-- **Matter Hub UI** (accessible at `/matter/`) - Configure and manage Matter devices
-- Single port (18080) for both interfaces
-- Automatic authentication using effortlesshome credentials
-- Persistent storage for Matter devices
-
-See [MATTER_INTEGRATION.md](MATTER_INTEGRATION.md) for technical details about the Matter integration.
+For installation instructions and setup guides, visit:
+**https://www.effortlesshome.co/get-started/**
 
 ## Support
 
-For support and questions, visit [effortlesshome](https://effortlesshome.co)
+Questions or issues? Visit [effortlesshome.co](https://effortlesshome.co) or check the [technical documentation](MATTER_INTEGRATION.md).
