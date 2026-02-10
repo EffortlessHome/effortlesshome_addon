@@ -42,6 +42,12 @@ dashboard_port: 18080
 - `ha_url` (required): Home Assistant URL (default: http://homeassistant.local:8123)
 - `dashboard_port` (optional): Port for web interface (default: 18080)
 
+## Plan Requirements
+
+This add-on requires Feature ID `2` (Remote Access) in your subscribed plan.
+Systems on the Basic plan do not include this feature, so the add-on will not start.
+Upgrade to a plan higher than Basic to use the EffortlessHome add-on.
+
 ## Installation
 
 1. Add this repository to your Home Assistant add-on store

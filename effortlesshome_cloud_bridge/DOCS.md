@@ -13,6 +13,12 @@
 - **ha_url**: Home Assistant URL (default: `http://homeassistant.local:8123`)
 - **dashboard_port**: Port for the web dashboard (default: `18080`)
 
+## Plan Requirements
+
+This add-on requires Feature (Remote Access) in your subscribed plan.
+Systems on the Basic plan do not include this feature, so the add-on will not start.
+Upgrade to a plan higher than Basic to use the EffortlessHome add-on.
+
 ## Features
 
 ### Cloudflare Tunnel
