@@ -1,5 +1,5 @@
 name: "EffortlessHome Cloud"
-version: 1.7.6
+version: 1.7.7
 slug: "effortlesshome_bridge"
 description: "EffortlessHome Cloud for Home Assistant with Matter Hub support"
 startup: services
