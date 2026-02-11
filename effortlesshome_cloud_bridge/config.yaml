@@ -1,5 +1,5 @@
 name: "EffortlessHome Cloud"
-version: 1.8.1
+version: 1.8.2
 slug: "effortlesshome_bridge"
 description: "EffortlessHome Cloud for Home Assistant with Matter Hub support"
 startup: services
@@ -10,9 +10,6 @@ host_ipc: false
 host_pid: false
 hassio_api: true
 homeassistant_api: true
-webui: "http://[HOST]:[PORT:18080]"
-panel_icon: "mdi:view-dashboard"
-panel_title: "EffortlessHome Dashboard"
 arch:
   - aarch64
   - amd64
@@ -22,7 +19,6 @@ options:
   email: ""
   password: ""
   matter_label: "favorite"
-  dashboard_port: 18080
   send_on_start: true
   interval_seconds: 3600
   show_token_in_logs: false
@@ -30,7 +26,6 @@ schema:
   email: "str"
   password: "password"
   matter_label: "str?"
-  dashboard_port: "int"
   send_on_start: "bool"
   interval_seconds: "int"
   show_token_in_logs: "bool"

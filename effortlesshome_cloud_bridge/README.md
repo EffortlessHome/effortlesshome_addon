@@ -7,23 +7,12 @@ Connect your Home Assistant instance to EffortlessHome Cloud services with integ
 This add-on provides:
 - **Cloudflare Tunnel** - Secure remote access to your Home Assistant
 - **Matter Hub** - Native Matter protocol bridge for smart home devices
-- **Unified Web Dashboard** - Single interface accessible on one port
+- **Cloud Dashboard** - Hosted interface for managing your EffortlessHome services
 
 ## Features
 
-### Main Dashboard
-- Monitor EffortlessHome Cloud connection status
-- View system information
-- Manage tunnel configuration
-- Accessible at: `http://[addon-ip]:18080/`
-
-### Matter Hub
-- Add and manage Matter devices
-- Configure Matter bridges
-- View device status and capabilities
-- Accessible at: `http://[addon-ip]:18080/matter/`
-
-Both interfaces run on the **same port (18080)** for simplified access.
+### Cloud Dashboard
+Manage your EffortlessHome services at https://dash.effortlesshome.co.
 
 ## Configuration
 
@@ -32,7 +21,6 @@ email: your-email@example.com
 password: your-password
 system_id: your-system-id (optional if you have only one system)
 ha_url: http://homeassistant.local:8123
-dashboard_port: 18080
 ```
 
 ### Configuration Options
@@ -40,7 +28,6 @@ dashboard_port: 18080
 - `email` (required): Your EffortlessHome account email
 - `password` (required): Your EffortlessHome account password
 - `ha_url` (required): Home Assistant URL (default: http://homeassistant.local:8123)
-- `dashboard_port` (optional): Port for web interface (default: 18080)
 
 ## Plan Requirements
 
@@ -54,7 +41,7 @@ Upgrade to a plan higher than Basic to use the EffortlessHome add-on.
 2. Install the "EffortlessHome Cloud" add-on
 3. Configure your credentials
 4. Start the add-on
-5. Access the dashboard at `http://[homeassistant-ip]:18080/`
+5. Access the dashboard at https://dash.effortlesshome.co
 
 ## Data Persistence
 

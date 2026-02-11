@@ -6,7 +6,7 @@ Official Home Assistant add-ons repository for EffortlessHome.
 
 - **Secure Remote Access** - Connect to your Home Assistant from anywhere using Cloudflare Tunnel
 - **Matter Hub Integration** - Bridge Matter protocol devices into your smart home
-- **Unified Dashboard** - Single interface to manage all EffortlessHome services
+- **Cloud Dashboard** - Manage services at https://dash.effortlesshome.co
 - **Cloud Services** - Seamless integration with EffortlessHome Cloud
 
 ## Getting Started

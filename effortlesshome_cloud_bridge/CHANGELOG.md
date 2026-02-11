@@ -5,5 +5,5 @@
 - Initial release
 - Cloudflare Tunnel integration
 - Matter Hub support
-- Web dashboard
+- Hosted dashboard access
 - OAuth authentication API

@@ -11,7 +11,6 @@
 
 - **system_id**: Specific system ID if you have multiple systems (auto-detected if you have only one)
 - **ha_url**: Home Assistant URL (default: `http://homeassistant.local:8123`)
-- **dashboard_port**: Port for the web dashboard (default: `18080`)
 
 ## Plan Requirements
 
@@ -27,8 +26,8 @@ Automatically establishes a secure Cloudflare tunnel for remote access to your H
 ### Matter
 Adds Matter device export support to Home Assistant.
 
-### Web Dashboard
-Provides a web interface for monitoring and managing your EffortlessHome services.
+### Cloud Dashboard
+View your EffortlessHome dashboard online at https://dash.effortlesshome.co.
 
 ## Troubleshooting
 
