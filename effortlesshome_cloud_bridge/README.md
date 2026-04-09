@@ -14,24 +14,9 @@ This add-on provides:
 ### Cloud Dashboard
 Manage your EffortlessHome services at https://dash.effortlesshome.co.
 
-## Configuration
-
-```yaml
-email: your-email@example.com
-password: your-password
-system_id: your-system-id (optional if you have only one system)
-ha_url: http://homeassistant.local:8123
-```
-
-### Configuration Options
-
-- `email` (required): Your EffortlessHome account email
-- `password` (required): Your EffortlessHome account password
-- `ha_url` (required): Home Assistant URL (default: http://homeassistant.local:8123)
-
 ## Plan Requirements
 
-This add-on requires Feature ID `2` (Remote Access) in your subscribed plan.
+This add-on requires a subscribed EffortlessHome plan.
 Systems on the Basic plan do not include this feature, so the add-on will not start.
 Upgrade to a plan higher than Basic to use the EffortlessHome add-on.
 
