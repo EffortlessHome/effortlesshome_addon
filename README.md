@@ -12,7 +12,7 @@ Official Home Assistant add-ons repository for EffortlessHome.
 ## Getting Started
 
 For installation instructions and setup guides, visit:
-**https://www.effortlesshome.co/get-started/**
+**https://www.effortlesshome.co/getstarted/**
 
 ## Support
 

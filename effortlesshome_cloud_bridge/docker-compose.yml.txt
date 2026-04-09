@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  effortlesshome-cloud:
+    image: effortlesshome/oasiracloudbridge:latest-amd64
+    container_name: effortlesshome_cloud_bridge
+    restart: unless-stopped
+
+    network_mode: host
+
+    # Privileged capabilities required by the add-on
+    cap_add:
+      - NET_ADMIN
+      - SYS_ADMIN
+
+    # Volume mounts
+    volumes:
+      - ./data:/data:rw
