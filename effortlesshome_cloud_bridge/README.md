@@ -8,6 +8,7 @@ This add-on provides:
 - **Cloudflare Tunnel** - Secure remote access to your Home Assistant
 - **Matter Hub** - Native Matter protocol bridge for smart home devices
 - **Cloud Dashboard** - Hosted interface for managing your EffortlessHome services
+- **Bundled Web App Hosting** - Serves the local `web` app on a separate configurable port (default `8099`)
 
 ## Features
 
@@ -35,6 +36,11 @@ The add-on stores data in `/data`:
 - `/data/options.json` - Add-on configuration
 
 This data persists across add-on restarts and updates.
+
+## Local Web App
+
+The add-on serves the bundled web app on `http://<home-assistant-host>:8099` by default.
+You can change this in add-on options with `web_port`.
 
 ## Technical Details
 

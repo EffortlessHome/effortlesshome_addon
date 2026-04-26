@@ -9,8 +9,7 @@
 
 ### Optional Settings
 
-- **system_id**: Specific system ID if you have multiple systems (auto-detected if you have only one)
-- **ha_url**: Home Assistant URL (default: `http://homeassistant.local:8123`)
+
 
 ## Plan Requirements
 
@@ -28,6 +27,10 @@ Adds Matter device export support to Home Assistant.
 
 ### Cloud Dashboard
 View your EffortlessHome dashboard online at https://dash.effortlesshome.co.
+
+### Local Web App Hosting
+The add-on also serves the bundled web app from the `web` folder on a separate port.
+By default, this is available at `http://<home-assistant-host>:8099` and can be changed with `web_port`.
 
 ## Troubleshooting
 

@@ -4,5 +4,6 @@
     "matter_label": "favorite",
     "send_on_start": true,
     "interval_seconds": 3600,
-    "show_token_in_logs": false
+    "HA_URL": "",
+    "HA_TOKEN": ""
 }
