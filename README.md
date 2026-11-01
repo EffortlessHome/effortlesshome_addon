@@ -1,12 +1,12 @@
-# EffortlessHome Home Assistant Add-on
+# Oasira Home Assistant Add-on
 
-EffortlessHome adds a simpler household experience on top of your existing Home
-Assistant setup. Install this add-on to connect Home Assistant to EffortlessHome
+Oasira adds a simpler household experience on top of your existing Home
+Assistant setup. Install this add-on to connect Home Assistant to Oasira
 services; your Home Assistant installation stays on your own hardware.
 
 ## What it provides
 
-EffortlessHome's current offering includes:
+Oasira's current offering includes:
 
 - Remote access using Cloudflare Tunnel infrastructure
 - A unified dashboard and household app experience
@@ -15,20 +15,20 @@ EffortlessHome's current offering includes:
   configuration
 - iOS, Android, and TV apps, currently in beta
 
-Features depend on your Home Assistant setup and EffortlessHome plan. The
-dashboard is available at [dash.effortlesshome.co](https://dash.effortlesshome.co).
-See [effortlesshome.co](https://www.effortlesshome.co/) for current product
+Features depend on your Home Assistant setup and Oasira plan. The
+dashboard is available at [dash.Oasira.co](https://dash.Oasira.co).
+See [Oasira.co](https://www.Oasira.co/) for current product
 details.
 
 ## Requirements
 
 - An existing Home Assistant installation
 - A supported add-on architecture: `aarch64` or `amd64`
-- An EffortlessHome account and an active plan or trial
+- An Oasira account and an active plan or trial
 
 The website currently advertises a 30-day free trial with no credit card
 required, followed by pricing of $15 USD per month or $150 USD per year. Check
-the [EffortlessHome website](https://www.effortlesshome.co/) for current plan
+the [Oasira website](https://www.Oasira.co/) for current plan
 details.
 
 ## Install
@@ -36,10 +36,10 @@ details.
 1. In Home Assistant, open **Settings > Add-ons > Add-on Store**.
 2. Open the menu and choose **Repositories**.
 3. Add this repository:
-   `https://github.com/EffortlessHome/effortlesshome_addon`
-4. Find and install **EffortlessHome Cloud**.
+   `https://github.com/Oasira/Oasira_addon`
+4. Find and install **Oasira Cloud**.
 5. Configure the add-on, save the options, and start it.
-6. Sign in to the dashboard at [dash.effortlesshome.co](https://dash.effortlesshome.co).
+6. Sign in to the dashboard at [dash.Oasira.co](https://dash.Oasira.co).
 
 ## Add-on options
 
@@ -47,8 +47,8 @@ Configure these in the add-on's **Configuration** tab:
 
 | Option | Required | Default | Description |
 | --- | --- | --- | --- |
-| `email` | Yes | Not set | Email address for your EffortlessHome account |
-| `password` | Yes | Not set | Password for your EffortlessHome account |
+| `email` | Yes | Not set | Email address for your Oasira account |
+| `password` | Yes | Not set | Password for your Oasira account |
 | `ha_url` | No | Empty | Optional Home Assistant URL |
 | `ha_token` | No | Empty | Optional Home Assistant token |
 | `matter_label` | No | `favorite` | Matter label option |
@@ -57,10 +57,10 @@ Configure these in the add-on's **Configuration** tab:
 
 The add-on runs automatically at startup. Its configuration schema and
 supported architectures are defined in
-[config.yaml](effortlesshome_cloud_bridge/config.yaml).
+[config.yaml](Oasira_cloud_bridge/config.yaml).
 
 ## Support
 
 For product information and help, visit
-[effortlesshome.co](https://www.effortlesshome.co/). For add-on issues, open an
+[Oasira.co](https://www.Oasira.co/). For add-on issues, open an
 issue in this repository.

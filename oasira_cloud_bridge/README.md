@@ -1,33 +1,33 @@
-# EffortlessHome Cloud Add-on
+# Oasira Cloud Add-on
 
-Connect your Home Assistant instance to EffortlessHome Cloud services with integrated Matter Hub support.
+Connect your Home Assistant instance to Oasira Cloud services with integrated Matter Hub support.
 
 ## About
 
 This add-on provides:
 - **Cloudflare Tunnel** - Secure remote access to your Home Assistant
 - **Matter Hub** - Native Matter protocol bridge for smart home devices
-- **Cloud Dashboard** - Hosted interface for managing your EffortlessHome services
+- **Cloud Dashboard** - Hosted interface for managing your Oasira services
 - **Bundled Web App Hosting** - Serves the local `web` app on a separate configurable port (default `8099`)
 
 ## Features
 
 ### Cloud Dashboard
-Manage your EffortlessHome services at https://dash.effortlesshome.co.
+Manage your Oasira services at https://dash.Oasira.co.
 
 ## Plan Requirements
 
-This add-on requires a subscribed EffortlessHome plan.
+This add-on requires a subscribed Oasira plan.
 Systems on the Basic plan do not include this feature, so the add-on will not start.
-Upgrade to a plan higher than Basic to use the EffortlessHome add-on.
+Upgrade to a plan higher than Basic to use the Oasira add-on.
 
 ## Installation
 
 1. Add this repository to your Home Assistant add-on store
-2. Install the "EffortlessHome Cloud" add-on
+2. Install the "Oasira Cloud" add-on
 3. Configure your credentials
 4. Start the add-on
-5. Access the dashboard at https://dash.effortlesshome.co
+5. Access the dashboard at https://dash.Oasira.co
 
 ## Data Persistence
 
@@ -48,4 +48,4 @@ See [MATTER_INTEGRATION.md](../MATTER_INTEGRATION.md) for technical documentatio
 
 ## Support
 
-For support, visit [EffortlessHome](https://effortlesshome.co)
+For support, visit [Oasira](https://Oasira.co)
