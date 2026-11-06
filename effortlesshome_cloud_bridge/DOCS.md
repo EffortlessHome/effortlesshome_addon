@@ -39,6 +39,21 @@ By default, this is available at `http://<home-assistant-host>:8099` and can be 
 2. Verify you have an active EffortlessHome account
 3. Check the add-on logs for specific error messages
 
+### Insecure secrets detected in app configuration
+Home Assistant Supervisor reports this when a configured secret, such as the
+EffortlessHome account password, is found in a known password breach. This is a
+security warning about the configured credential, not an add-on configuration
+format error.
+
+1. Change your EffortlessHome account password to a new, unique password.
+2. Update the add-on's **password** option with the new password.
+3. Save the options and restart the add-on.
+
+Do not work around this warning by disabling password validation or reusing a
+known-breached password. If the warning remains after updating the password,
+review the add-on options for any other compromised credentials and rotate them
+as well.
+
 ### Services not connecting
 - Ensure your internet connection is stable
 - Verify your EffortlessHome account has active services

@@ -1,9 +1,9 @@
 #============================#
-#   OASIRA ADDON DOCKERFILE  #
+#   ADDON DOCKERFILE  #
 #============================#
 # This Dockerfile is not used when build.json is present
 # Home Assistant pulls pre-built images from Docker Hub via build.json
-# The actual images are built separately and pushed to effortlesshome/oasiracloudbridge
+# The actual images are built separately and pushed to effortlesshome/effortlesshomecloudbridge
 
 ARG BUILD_FROM
 FROM ${BUILD_FROM}
@@ -28,4 +28,4 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Oasira (https://github.com/EffortlessHome)"
+    maintainer="EffortlessHome (https://github.com/EffortlessHome)"
