@@ -22,11 +22,11 @@ build/
 .pytest_cache/
 *.coverage
 
-# Node.js (exclude from Oasira-matter source, we rebuild anyway)
-Oasira-matter/node_modules
-Oasira-matter/.turbo
-Oasira-matter/packages/*/node_modules
-Oasira-matter/packages/*/dist
+# Node.js (exclude from EffortlessHome-matter source, we rebuild anyway)
+EffortlessHome-matter/node_modules
+EffortlessHome-matter/.turbo
+EffortlessHome-matter/packages/*/node_modules
+EffortlessHome-matter/packages/*/dist
 
 # IDE
 .vscode/

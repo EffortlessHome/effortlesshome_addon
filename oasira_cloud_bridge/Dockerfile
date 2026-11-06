@@ -6,16 +6,16 @@
 <<<<<<< HEAD:effortlesshome_cloud_bridge/Dockerfile
 # The actual images are built separately and pushed to effortlesshome/effortlesshomecloudbridge
 =======
-# The actual images are built separately and pushed to Oasira/oasiracloudbridge
->>>>>>> 0b3348a11cddc05c9484a3dbfa2ffd51254950f4:oasira_cloud_bridge/Dockerfile
+# The actual images are built separately and pushed to EffortlessHome/effortlesshomecloudbridge
+>>>>>>> 0b3348a11cddc05c9484a3dbfa2ffd51254950f4:effortlesshome_cloud_bridge/Dockerfile
 
 ARG BUILD_FROM
 FROM ${BUILD_FROM}
 
 # This is a placeholder Dockerfile required by Home Assistant
 # The actual addon uses pre-built images specified in build.json:
-# - Oasira/Oasiracloudbridge:latest-amd64
-# - Oasira/Oasiracloudbridge:latest-aarch64
+# - EffortlessHome/EffortlessHomecloudbridge:latest-amd64
+# - EffortlessHome/EffortlessHomecloudbridge:latest-aarch64
 
 # Labels for Home Assistant
 ARG BUILD_ARCH
@@ -35,5 +35,5 @@ LABEL \
 <<<<<<< HEAD:effortlesshome_cloud_bridge/Dockerfile
     maintainer="EffortlessHome (https://github.com/EffortlessHome)"
 =======
-    maintainer="Oasira (https://github.com/Oasira)"
->>>>>>> 0b3348a11cddc05c9484a3dbfa2ffd51254950f4:oasira_cloud_bridge/Dockerfile
+    maintainer="EffortlessHome (https://github.com/EffortlessHome)"
+>>>>>>> 0b3348a11cddc05c9484a3dbfa2ffd51254950f4:effortlesshome_cloud_bridge/Dockerfile
